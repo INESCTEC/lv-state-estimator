@@ -3,9 +3,9 @@ from fastapi import FastAPI
 import ddse.routers as rt
 
 app = FastAPI(
-    title="DDSE-OS",
+    title="GridSights",
     description="""
-    The Data-driven State Estimator (DdSE) is a tool specially designed to provide a
+    The GridSights is a tool specially designed to provide a
     real-time snapshot of the low voltage network comprising voltage magnitudes for all
     the meters capable of gathering historical data.
     The methodology takes advantage of information gathered by the smart grid
@@ -17,10 +17,6 @@ app = FastAPI(
     contact={
         "name": "INESCTEC - Centro de Produção Energia e Sistemas (CPES)",
         "url": "https://www.inesctec.pt/",
-    },
-    license_info={
-        "name": "GNU Affero General Public License v3.0",
-        "url": "https://www.gnu.org/licenses/agpl-3.0.txt",
     },
     root_path="/",
 )
