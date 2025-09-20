@@ -1,0 +1,9 @@
+pydantic
+numpy
+fastapi
+os
+sqlite3
+datetime
+typing
+dateutil
+-e .
